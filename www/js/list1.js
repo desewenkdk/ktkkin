@@ -41,6 +41,7 @@ $(function(){
 
     Hammer(picture[1]).on("tap", function() {
       if(c == 0){
+      $('.picllong').css('width',((width*0.9)*3)+'px');
       $('#text-one').css("display",'none');
       $("#plus-one").css("overflow",'scroll').fadeIn(500,"swing");
       c = 1;

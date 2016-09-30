@@ -4,7 +4,7 @@ $(document).ready(function(){
   var width = $(window).innerWidth();
   var r = 0 , x = 0;
   var aryLft = [];
-  for(var i = 1 ; i < 16 ; i++)
+  for(var i = 1 ; i < 17 ; i++)
   {
     aryLft[i] = i*width;
   }
@@ -24,7 +24,7 @@ $(document).ready(function(){
           'http:/www.mpva.go.kr/narasarang/gonghun_list.asp',
           'http:/www.mpva.go.kr/narasarang/gonghun_list.asp'
 ];
-$('#wrap').css('width',(width*16)+'px').css('height',(height)+'px');
+$('#wrap').css('width',(width*17)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
 
@@ -42,7 +42,7 @@ $(function(){
 
     Hammer(scrn).on("swipeleft", function() {
 
-      if( (r >= width)&&(r < (width*15)) ){
+      if( (r >= width)&&(r < (width*16)) ){
 
         r += width;
       $('#wrap').removeClass("trans").css('left',-(r)+'px');
@@ -149,6 +149,12 @@ $(function(){
     $('.main-button-15').on('click',function(){
       $('#wrap').css('left',-aryLft[15]+'px');
       r += (15*width);
+
+    });
+
+    $('.main-button-16').on('click',function(){
+      $('#wrap').css('left',-aryLft[16]+'px');
+      r += (16*width);
 
     });
     $('.tag').on('click', function() {

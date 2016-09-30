@@ -7,7 +7,7 @@
   $('.f-btn').css('height',(width* 0.17)+'px').css('width',(width* 0.17)+'px').css('margin-left',(width* 0.12)+'px').css('margin-right',(width* 0.06)+'px');
   $('.tag').css('height',(width* 0.17)+'px').css('width',(width* 0.17)+'px').css('margin-left',(width* 0.06)+'px').css('margin-right',(width* 0.12)+'px');
   $('.home-btn').css('height',(width* 0.17)+'px').css('width',(width* 0.17)+'px').css('margin-left',(width* 0.06)+'px').css('margin-right',(width* 0.06)+'px');
-  
+
   $('.t-up').css('height',(width* 0.15)+'px').css('width',(width* 0.15)+'px').css('margin-left',(width* 0.14)+'px').css('margin-right',(width* 0.2)+'px');
   $('.t-home').css('height',(width* 0.15)+'px').css('width',(width* 0.15)+'px').css('margin-left',(width* 0.2)+'px').css('margin-right',(width* 0.14)+'px');
   $('.bodyback1').css('height',(height)+'px');
@@ -23,12 +23,15 @@
   $('.t-2').css('top',(height/2)+'px').css('height',(height/2)+'px');
   $('.t-1').css('height',(height/2)+'px');
   $('.p-t').css('width',(width*0.9)+'px').css('font-size',(height* 0.02)+'px');
+  $('.plussize').css('width',(width*0.9)+'px');
+
 
   $('.y-2').css('font-size',(height* 0.025)+'px');
 //  $('.bd').css('font-size',(height* 0.022)+'px');
   $('.fx2').css('font-size',(height* 0.032)+'px');
   $('.fx').css('font-size',(height* 0.032)+'px');
   $('.fx-1').css('font-size',(height* 0.032)+'px');
+  $('.fx-4').css('font-size',(height* 0.032)+'px');
     $('.fx-3').css('font-size',(height* 0.032)+'px');
 //  $('.head').css('font-size',(height* 0.03)+'px');
 //  $('.head-2').css('font-size',(height* 0.03)+'px');

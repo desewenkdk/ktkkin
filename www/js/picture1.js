@@ -10,6 +10,10 @@ $(document).ready(function(){
       Hammer(picture[1]).on("tap", function() {
         $("#wrap").css("position","fixed");
         if(c == 0){
+          alert(4);
+        var x = $('.pic-wrap').length;
+        alert(x);
+        $('.picllong').css('width',((width*0.9)*3)+'px');
         $('#text-one').css("display",'none');
         $("#plus-one").css("overflow",'scroll').fadeIn(500,"swing");
         c = 1;
