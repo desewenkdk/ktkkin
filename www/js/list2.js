@@ -3,7 +3,7 @@ $(document).ready(function(){
   var height = $(window).innerHeight();
   var width = $(window).innerWidth();
   var picture = [];
-  var c = 0, c1 = 0, c2 = 0, c3 = 0, check = 0;
+  var c = 0, c1 = 0, c2 = 0, c3 = 0, c4 = 0, check = 0;
   var r = 0 , x = 0;
   var aryLft = [];
   for(var i = 1 ; i < 8 ; i++)
@@ -27,6 +27,7 @@ $(function(){
     Hammer(picture[1]).on("tap", function() {
 
       if(c == 0){
+      $('.picllong').css('width',((width*0.9)*6)+'px');
       $('#text-three').css("display",'none');
       $("#plus-three").css("overflow",'scroll').fadeIn(500,"swing");
       c = 1;
@@ -45,6 +46,7 @@ $(function(){
     Hammer(picture[2]).on("tap", function() {
 
       if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*5)+'px');
       $('#text-four').css("display",'none');
       $("#plus-four").css("overflow",'scroll').fadeIn(500,"swing");
       c1 = 1;
@@ -63,6 +65,7 @@ $(function(){
     Hammer(picture[3]).on("tap", function() {
 
       if(c2 == 0){
+        $('.picllong').css('width',((width*0.9)*9)+'px');
       $('#text-five').css("display",'none');
       $("#plus-five").css("overflow",'scroll').fadeIn(500,"swing");
       c2 = 1;
@@ -81,6 +84,7 @@ $(function(){
     Hammer(picture[4]).on("tap", function() {
 
       if(c3 == 0){
+          $('.picllong').css('width',((width*0.9)*6)+'px');
       $('#text-six').css("display",'none');
       $("#plus-six").css("overflow",'scroll').fadeIn(500,"swing");
       c3 = 1;
@@ -91,6 +95,25 @@ $(function(){
       $("#text-six").fadeIn(500,"swing");
       c3 = 0;
       check = 0;
+      }
+    });
+
+    picture[5] = document.getElementById("picture-twelve");
+
+    Hammer(picture[5]).on("tap", function() {
+
+      if(c4 == 0){
+        $('.picllong').css('width',((width*0.9)*4)+'px');
+      $('#text-twelve').css("display",'none');
+      $("#plus-twelve").css("overflow",'scroll').fadeIn(500,"swing");
+      c4 = 1;
+      check = 1;
+      }
+      else if(c4 == 1){
+      $('#plus-twelve').css("overflow",'hidden').css("display",'none');
+      $("#text-twelve").fadeIn(500,"swing");
+      c4 = 0;
+        check = 0;
       }
     });
 
@@ -202,5 +225,5 @@ $(function(){
               }
           }
       });
-      
+
 });

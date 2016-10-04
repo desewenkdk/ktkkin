@@ -24,6 +24,7 @@
   $('.t-1').css('height',(height/2)+'px');
   $('.p-t').css('width',(width*0.9)+'px').css('font-size',(height* 0.02)+'px');
   $('.plussize').css('width',(width*0.9)+'px');
+  $('.pic-wrap').css('width',(width*0.9)+'px');
 
 
   $('.y-2').css('font-size',(height* 0.025)+'px');
@@ -33,6 +34,7 @@
   $('.fx-1').css('font-size',(height* 0.032)+'px');
   $('.fx-4').css('font-size',(height* 0.032)+'px');
     $('.fx-3').css('font-size',(height* 0.032)+'px');
+    $('.fx-5').css('font-size',(height* 0.032)+'px');
 //  $('.head').css('font-size',(height* 0.03)+'px');
 //  $('.head-2').css('font-size',(height* 0.03)+'px');
 //  $('.tq').css('font-size',(height* 0.0213)+'px');

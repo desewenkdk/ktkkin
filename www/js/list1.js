@@ -41,7 +41,7 @@ $(function(){
 
     Hammer(picture[1]).on("tap", function() {
       if(c == 0){
-      $('.picllong').css('width',((width*0.9)*3)+'px');
+      $('.picllong').css('width',((width*0.9)*4)+'px');
       $('#text-one').css("display",'none');
       $("#plus-one").css("overflow",'scroll').fadeIn(500,"swing");
       c = 1;
@@ -72,6 +72,45 @@ $(function(){
       check = 0;
       }
     });
+
+    picture[3] = document.getElementById("picture-fourteen");
+
+    Hammer(picture[3]).on("tap", function() {
+
+      if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*3)+'px');
+      $('#text-fourteen').css("display",'none');
+      $("#plus-fourteen").css("overflow",'scroll').fadeIn(500,"swing");
+      c1 = 1;
+      check = 1;
+      }
+      else if(c1 == 1){
+      $('#plus-fourteen').css("overflow",'hidden').css("display",'none');
+      $("#text-fourteen").fadeIn(500,"swing");
+      c1 = 0;
+      check = 0;
+      }
+    });
+
+    picture[4] = document.getElementById("picture-fifteen");
+
+    Hammer(picture[4]).on("tap", function() {
+
+      if(c1 == 0){
+        $('.picllong').css('width',(width*0.9)+'px');
+      $('#text-fifteen').css("display",'none');
+      $("#plus-fifteen").css("overflow",'scroll').fadeIn(500,"swing");
+      c1 = 1;
+      check = 1;
+      }
+      else if(c1 == 1){
+      $('#plus-fifteen').css("overflow",'hidden').css("display",'none');
+      $("#text-fifteen").fadeIn(500,"swing");
+      c1 = 0;
+      check = 0;
+      }
+    });
+
 
 
   });

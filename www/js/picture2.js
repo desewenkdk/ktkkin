@@ -67,6 +67,22 @@ $(document).ready(function(){
         }
       });
 
+      picture[5] = document.getElementById("picture-twelve");
+
+      Hammer(picture[4]).on("tap", function() {
+
+        if(c3 == 0){
+        $('#text-twelve').css("display",'none');
+        $("#plus-twelve").css("overflow",'scroll').fadeIn(500,"swing");
+        c3 = 1;
+        }
+        else if(c3 == 1){
+        $('#plus-twelve').css("overflow",'hidden').css("display",'none');
+        $("#text-twelve").fadeIn(500,"swing");
+        c3 = 0;
+        }
+      });
+
 
 
     });

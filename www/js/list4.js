@@ -38,6 +38,8 @@ $(function(){
     Hammer(picture[1]).on("tap", function() {
 
       if(c == 0){
+
+        $('.picllong').css('width',((width*0.9)*4)+'px');
       $('#text-seven').css("display",'none');
       $("#plus-seven").css("overflow",'scroll').fadeIn(500,"swing");
       c = 1;
@@ -56,6 +58,7 @@ $(function(){
     Hammer(picture[2]).on("tap", function() {
 
       if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*6)+'px');
       $('#text-eight').css("display",'none');
       $("#plus-eight").css("overflow",'scroll').fadeIn(500,"swing");
       c1 = 1;
@@ -68,6 +71,27 @@ $(function(){
       check = 0;
       }
     });
+
+    picture[3] = document.getElementById("picture-thirteen");
+
+    Hammer(picture[3]).on("tap", function() {
+
+      if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*4)+'px');
+      $('#text-thirteen').css("display",'none');
+      $("#plus-thirteen").css("overflow",'scroll').fadeIn(500,"swing");
+      c1 = 1;
+      check = 1;
+      }
+      else if(c1 == 1){
+      $('#plus-thirteen').css("overflow",'hidden').css("display",'none');
+      $("#text-thirteen").fadeIn(500,"swing");
+      c1 = 0;
+      check = 0;
+      }
+    });
+
+
 /*
     picture[3] = document.getElementById("picture-five");
 
