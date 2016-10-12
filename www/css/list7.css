@@ -1,3 +1,36 @@
+.tocolorred { background-color: #d94452;} /*어두운 빨강*/
+
+.tocolor1 { background-color: #e8563f;}
+.tocolor2 { background-color: #fb6d51;}
+.tocolor3 { background-color: #fc8370;} /*주황색 3개*/
+
+.tocolor6 { background-color: #fcd277;}
+.tocolor5 { background-color: #fecd57;}
+.tocolor4 { background-color: #f5ba45;} /*노란색 3개*/
+
+.tocolorgre { background-color: #46cead;} /*청록색*/
+
+.tocolor7 { background-color: #8ac054;}
+.tocolor8 { background-color: #9ed36a;}
+.tocolor9 { background-color: #b4e080;} /*연두색 3개*/
+
+.tocolor10 { background-color: #35bb9b;}
+.tocolor11 { background-color: #46cead;}
+.tocolor12 { background-color: #62ddbd;} /*하늘색 3개*/
+
+.tocolorblu { background-color: #5e9cea;} /*파란색*/
+
+.tocolor13 { background-color: #967ada;}
+.tocolor14 { background-color: #ac92ea;}
+.tocolor15 { background-color: #b3a5ea;} /*보라색 3개*/
+
+.tocolorpur { background-color: #ac92ea;} /*보라색*/
+
+.tocolor16 { background-color: #4b89da;}
+.tocolor17 { background-color: #5e9cea;}
+.tocolor18 { background-color: #73b1f4;} /*파란색 3개*/
+
+
 html {
   margin:0px;
   padding:0px;
@@ -8,11 +41,189 @@ body {
   padding:0px;
   background-color: black;
   color:white;
+}
 
+.toheader {
+  width:100%;
+  position: fixed;
+  height:140px;
+  font-size: 35px;
+  letter-spacing: .2em;
+  z-index: 3;
+  text-align: right;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: 900;
+  border-bottom-style:solid;
+}
+
+.toheadtext {
+  padding-top: 14%;
+}
+
+.toheadmonthshow {
+  text-align: center;
+}
+.headerback {
+  background-image: url(../img/seven.png);
+  width:40px;
+  height:40px;
+  background-size: 100% 100%;
+  float:right;
+  margin-right: 10%;
+  margin-left: 2%;
+}
+.towrap {
+  position: absolute;
+  top:140px;
+  z-index: 2;
+  width:100%;
 
 }
+
+.todaywhitebackpage {
+
+}
+.sidemonth { width:100%; display: none;}
+
+.toblock {
+  width:100%;
+  height:114px;
+  text-align: center;
+}
+
+.toroupic {
+  border-radius: 400px;
+  width:90px;
+  height:90px;
+  float:left;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2.5%;
+
+  background-size: 100% 100%;
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.toroupic-1 {
+  border-radius: 400px;
+  width:90px;
+  height:90px;
+  float:left;
+
+  margin-left: 5%;
+  margin-top: 2.5%;
+
+  background-size: 100% 100%;
+
+}
+
+.totext {
+  margin-top:6.5%;
+  letter-spacing: .2em;
+  width:65%;
+  float:left;
+  line-height: 150%;
+}
+.toname {
+  font-size: 23px;
+  letter-spacing: .2em;
+  margin-top: 3%;
+  padding-left: 35%;
+  float:left;
+  padding-bottom: 5%;
+  font-weight: 500;
+}
+
+.toname-1 {
+  font-size: 23px;
+  letter-spacing: .1em;
+  margin-top: 3%;
+  padding-left: 10%;
+  float:left;
+  padding-bottom: 5%;
+  font-weight: 500;
+}
+.toyear {
+  letter-spacing: normal;
+  font-weight: 100;
+  font-size: 16px;
+  color:white;
+  float:left;
+
+  padding-left: 14%;
+}
+
+
+.toshowmonth {
+  width:50%;
+  height:50%;
+
+  transform:skew(45deg,-45deg);
+-ms-transform:skew(45deg,-45deg);
+-webkit-transform:skew(45deg,-45deg);
+-o-transform:skew(45deg,-45deg);
+-moz-transform:skew(45deg,-45deg);
+position:fixed;
+bottom:6.4%;
+left:125%;
+z-index: 4;
+border-style: solid;
+border-width: thin;
+}
+
+.monthtext-1 {
+  transform:skew(-45deg,45deg);
+-ms-transform:skew(-45deg,45deg);
+-webkit-transform:skew(-45deg,45deg);
+-o-transform:skew(-45deg,45deg);
+-moz-transform:skew(-45deg,45deg);
+position: absolute;
+bottom:91%;
+
+font-size: 15px;
+font-weight: 900;
+}
+
+.monthtext {
+  transform:skew(-45deg,45deg);
+-ms-transform:skew(-45deg,45deg);
+-webkit-transform:skew(-45deg,45deg);
+-o-transform:skew(-45deg,45deg);
+-moz-transform:skew(-45deg,45deg);
+position: absolute;
+bottom:91%;
+
+font-size: 18px;
+font-weight: 900;
+}
+.todaystep {
+  width:100%;
+  height:73px;
+}
+
+.timefoot {
+  width:100%;
+  height:70px;
+  position:fixed;
+  bottom:0px;
+  z-index: 10;
+  border-top-style:solid;
+}
+
+.timebackhome {
+  background-image: url(../img/home.png);
+  background-size: 100% 100%;
+  height:60px;
+  width: 60px;
+  margin:5px auto;
+}
+/*
 .bback {
-  background-image: url(../img/bbback1.jpg);
+  background-image: url(../img/uurl.png);
   background-size: 100% 100%;
   height:640px;
   width:100%;
@@ -57,7 +268,7 @@ body {
   height:40px;
   background-size: 100% 100%;
   float:left;
-  margin:6% 0 5% 15%;
+  margin:6% 0 5% 0;
 }
 hr {
   margin-top:0px;
@@ -66,11 +277,13 @@ hr {
   width:90%;
 }
 .list {
+
   padding-top: 18px;
   padding-bottom: 18px;
   color:white;
   float:left;
-  width:85%;
+  width:70%;
+  margin-left: 15%;
   line-height: 180%;
   text-align: center;
   height:84px;
@@ -102,6 +315,11 @@ hr {
   z-index: 1;
 }
 
+.birthtext {
+  margin:0px;
+  padding:0px;
+
+}
 
 .w-one {background-color: rgba(255,0,0,0.3);}
 .w-two {background-color: rgba(235,184,103,0.5);}

@@ -1,227 +1,92 @@
 $(document).ready(function(){
 
 
-  
+
   $('.t-home').on('click',function(){
     location.href="../index.html";
 
   });
+
+  $('.t-backthema').on('click',function(){
+    location.href="../list/list8.html";
+
+  });
+
+
   $('.t-up').on('click',function(){
     $('html,body').animate({
         scrollTop: 0
     }, 700);
   });
 
-/*
-  $('#t-1').on('click',function(){
-     $(".tt-1").toggle();
-  });
-  $('#t-2').on('click',function(){
-     $(".tt-2").toggle();
-  });
-  $('#t-3').on('click',function(){
-     $(".tt-3").toggle();
-  });
-  $('#t-4').on('click',function(){
-     $(".tt-4").toggle();
-  });
-  $('#t-5').on('click',function(){
-     $(".tt-5").toggle();
-  });
-  $('#t-6').on('click',function(){
-     $(".tt-6").toggle();
-  });
-  $('#t-7').on('click',function(){
-     $(".tt-7").toggle();
-  });
-  $('#t-8').on('click',function(){
-     $(".tt-8").toggle();
-  });
-  $('#t-9').on('click',function(){
-     $(".tt-9").toggle();
-  });
-  $('#t-10').on('click',function(){
-     $(".tt-10").toggle();
-  });
-  $('#t-11').on('click',function(){
-     $(".tt-11").toggle();
-  });
-  $('#t-12').on('click',function(){
-     $(".tt-12").toggle();
-  });
-  $('#t-13').on('click',function(){
-     $(".tt-13").toggle();
-  });
-  $('#t-14').on('click',function(){
-     $(".tt-14").toggle();
-  });
-  $('#t-15').on('click',function(){
-     $(".tt-15").toggle();
-  });
-  $('#t-16').on('click',function(){
-     $(".tt-16").toggle();
-  });
-  $('#t-17').on('click',function(){
-     $(".tt-17").toggle();
-  });
-  $('#t-18').on('click',function(){
-     $(".tt-18").toggle();
-  });
-  $('#t-19').on('click',function(){
-     $(".tt-19").toggle();
-  });
-  $('#t-20').on('click',function(){
-     $(".tt-20").toggle();
-  });
-  $('#t-21').on('click',function(){
-     $(".tt-21").toggle();
-  });
-  $('#t-22').on('click',function(){
-     $(".tt-22").toggle();
-  });
-  $('#t-23').on('click',function(){
-     $(".tt-23").toggle();
-  });
-  $('#t-24').on('click',function(){
-     $(".tt-24").toggle();
-  });
-  $('#t-25').on('click',function(){
-     $(".tt-25").toggle();
-  });
-  $('#t-26').on('click',function(){
-     $(".tt-26").toggle();
-  });
-  $('#t-27').on('click',function(){
-     $(".tt-27").toggle();
-  });
-  $('#t-28').on('click',function(){
-     $(".tt-28").toggle();
-  });
-  $('#t-29').on('click',function(){
-     $(".tt-29").toggle();
-  });
-  $('#t-30').on('click',function(){
-     $(".tt-30").toggle();
-  });
-  $('#t-31').on('click',function(){
-     $(".tt-31").toggle();
-  });
-  $('#t-32').on('click',function(){
-     $(".tt-32").toggle();
-  });
-  $('#t-33').on('click',function(){
-     $(".tt-33").toggle();
-  });
-  $('#t-34').on('click',function(){
-     $(".tt-34").toggle();
-  });
-  $('#t-35').on('click',function(){
-     $(".tt-35").toggle();
-  });
-  $('#t-36').on('click',function(){
-     $(".tt-36").toggle();
-  });
-  $('#t-37').on('click',function(){
-     $(".tt-37").toggle();
-  });
-  $('#t-38').on('click',function(){
-     $(".tt-38").toggle();
-  });
-  $('#t-39').on('click',function(){
-     $(".tt-39").toggle();
-  });
-  $('#t-40').on('click',function(){
-     $(".tt-40").toggle();
-  });
-  $('#t-41').on('click',function(){
-     $(".tt-41").toggle();
-  });
-  $('#t-42').on('click',function(){
-     $(".tt-42").toggle();
-  });
-  $('#t-43').on('click',function(){
-     $(".tt-43").toggle();
-  });
-  $('#t-44').on('click',function(){
-     $(".tt-44").toggle();
-  });
-  $('#t-45').on('click',function(){
-     $(".tt-45").toggle();
-  });
-  $('#t-46').on('click',function(){
-     $(".tt-46").toggle();
-  });
-  $('#t-47').on('click',function(){
-     $(".tt-47").toggle();
-  });
-  $('#t-48').on('click',function(){
-     $(".tt-48").toggle();
-  });
-  $('#t-49').on('click',function(){
-     $(".tt-49").toggle();
-  });
-  $('#t-50').on('click',function(){
-     $(".tt-50").toggle();
-  });
-  $('#t-51').on('click',function(){
-     $(".tt-51").toggle();
-  });
-  $('#t-52').on('click',function(){
-     $(".tt-52").toggle();
-  });
-  $('#t-53').on('click',function(){
-     $(".tt-53").toggle();
-  });
-  $('#t-54').on('click',function(){
-     $(".tt-54").toggle();
-  });
-  $('#t-55').on('click',function(){
-     $(".tt-55").toggle();
-  });
-  $('#t-56').on('click',function(){
-     $(".tt-56").toggle();
-  });
-  $('#t-57').on('click',function(){
-     $(".tt-57").toggle();
-  });
-  $('#t-58').on('click',function(){
-     $(".tt-58").toggle();
-  });
-  $('#t-59').on('click',function(){
-     $(".tt-59").toggle();
-  });
-  $('#t-60').on('click',function(){
-     $(".tt-60").toggle();
-  });
-  $('#t-61').on('click',function(){
-     $(".tt-61").toggle();
-  });
-  $('#t-62').on('click',function(){
-     $(".tt-62").toggle();
-  });
-  $('#t-63').on('click',function(){
-     $(".tt-63").toggle();
-  });
-  $('#t-64').on('click',function(){
-     $(".tt-64").toggle();
-  });
-  $('#t-65').on('click',function(){
-     $(".tt-65").toggle();
-  });
-  $('#t-66').on('click',function(){
-     $(".tt-66").toggle();
-  });
-  $('#t-67').on('click',function(){
-     $(".tt-67").toggle();
-  });
-  $('#t-68').on('click',function(){
-     $(".tt-68").toggle();
-  });
-  $('#t-69').on('click',function(){
-     $(".tt-69").toggle();
-  });
-  $('#t-70').on('click',function(){
-     $(".tt-70").toggle();
-  });
-  */
+  $('.themapic-one').on('click',function(){
+    $(".themawrap").css("display","none");
+    $(".t-home").css("display","none");
+    $(".t-backthema").css("display","inline");
+    $(".t-up").css("display","inline");
+    $(".timefixhead").css("text-align","center");
+    $(".fixheadtext").html("태동기에서 창군까지");
+    $(".firstthema").css("display","inline");
+    $(".firstthematopic").css("display","inline");
+    $(".timecolor").css("background-color","rgb(237,85,101)");
+    $(".t-hr").css("background-color","rgba(237,85,101,0.2)").css("border-color","rgb(237,85,101)");
+    $(".timewrap").css("border-color","rgb(237,85,101)");
+  });
+
+  $('.themapic-two').on('click',function(){
+    $(".themawrap").css("display","none");
+    $(".t-home").css("display","none");
+    $(".t-backthema").css("display","inline");
+    $(".t-up").css("display","inline");
+    $(".timefixhead").css("text-align","center");
+    $(".fixheadtext").html("6.25전쟁과 공군");
+    $(".secondthema").css("display","inline");
+    $(".secondthematopic").css("display","inline");
+    $(".timecolor").css("background-color","rgb(252,110,81)");
+    $(".t-hr").css("background-color","rgba(252,110,81,0.2)").css("border-color","rgb(252,110,81)");
+    $(".timewrap").css("border-color","rgb(252,110,81)");
+  });
+
+  $('.themapic-three').on('click',function(){
+    $(".themawrap").css("display","none");
+    $(".t-home").css("display","none");
+    $(".t-backthema").css("display","inline");
+    $(".t-up").css("display","inline");
+    $(".timefixhead").css("text-align","center");
+    $(".fixheadtext").html("대한민국 공군의 발전");
+    $(".thirdthema").css("display","inline");
+    $(".thirdthematopic").css("display","inline");
+    $(".timecolor").css("background-color","rgb(255,206,84)");
+    $(".t-hr").css("background-color","rgba(255,206,84,0.2)").css("border-color","rgb(255,206,84)");
+    $(".timewrap").css("border-color","rgb(255,206,84)");
+  });
+
+  $('.themapic-four').on('click',function(){
+    $(".themawrap").css("display","none");
+    $(".t-home").css("display","none");
+    $(".t-backthema").css("display","inline");
+    $(".t-up").css("display","inline");
+    $(".timefixhead").css("text-align","center");
+    $(".fixheadtext").html("공군의 현대화");
+    $(".fourththema").css("display","inline");
+    $(".fourththematopic").css("display","inline");
+    $(".timecolor").css("background-color","rgb(160,212,104)");
+    $(".t-hr").css("background-color","rgba(160,212,104,0.2)").css("border-color","rgb(160,212,104)");
+    $(".timewrap").css("border-color","rgb(160,212,104)");
+  });
+
+  $('.themapic-five').on('click',function(){
+    $(".themawrap").css("display","none");
+    $(".t-home").css("display","none");
+    $(".t-backthema").css("display","inline");
+    $(".t-up").css("display","inline");
+    $(".timefixhead").css("text-align","center");
+    $(".fixheadtext").html("공군의 오늘");
+    $(".fifththema").css("display","inline");
+    $(".fifththematopic").css("display","inline");
+    $(".timecolor").css("background-color","rgb(72,207,173)");
+    $(".t-hr").css("background-color","rgba(72,207,173,0.2)").css("border-color","rgb(72,207,173)");
+    $(".timewrap").css("border-color","rgb(72,207,173)");
+  });
+
 });

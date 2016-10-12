@@ -21,6 +21,36 @@ $(document).ready(function(){
 $('#wrap').css('width',(width*8)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
+if (window.location.hash === "#1-4-2-7") {
+  $('#wrap').css('left',-aryLft[7]+'px');
+  r += (7*width);
+}
+
+if (window.location.hash === "#3-5-2-4") {
+  $('#wrap').css('left',-aryLft[4]+'px');
+  r += (4*width);
+}
+
+if (window.location.hash === "#5-1-2-3") {
+  $('#wrap').css('left',-aryLft[3]+'px');
+  r += (3*width);
+}
+
+if (window.location.hash === "#9-2-2-5") {
+  $('#wrap').css('left',-aryLft[5]+'px');
+  r += (5*width);
+}
+
+if (window.location.hash === "#9-3-2-1") {
+  $('#wrap').css('left',-aryLft[1]+'px');
+  r += (1*width);
+}
+
+if (window.location.hash === "#9-3-2-2") {
+  $('#wrap').css('left',-aryLft[2]+'px'); 
+  r += (2*width);
+}
+
 $(function(){
     picture[1] = document.getElementById("picture-three");
 

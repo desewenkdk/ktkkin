@@ -25,12 +25,22 @@ $(document).ready(function(){
 $('#wrap').css('width',(width*5)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
+if (window.location.hash === "#10-3-5-2") {
+  $('#wrap').css('left',-aryLft[2]+'px');
+  r += (2*width);
+}
+if (window.location.hash === "#12-5-5-4") {
+   $('#wrap').css('left',-aryLft[4]+'px'); 
+  r += (4*width);
+}
+
 $(function(){
     picture[1] = document.getElementById("picture-nine");
 
     Hammer(picture[1]).on("tap", function() {
 
       if(c == 0){
+        $('.picllong').css('width',((width*0.9)*4)+'px');
       $('#text-nine').css("display",'none');
       $("#plus-nine").css("overflow",'scroll').fadeIn(500,"swing");
       c = 1;
@@ -49,6 +59,7 @@ $(function(){
     Hammer(picture[2]).on("tap", function() {
 
       if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*4)+'px');
       $('#text-ten').css("display",'none');
       $("#plus-ten").css("overflow",'scroll').fadeIn(500,"swing");
       c1 = 1;
@@ -67,6 +78,7 @@ $(function(){
     Hammer(picture[3]).on("tap", function() {
 
       if(c2 == 0){
+        $('.picllong').css('width',((width*0.9)*7)+'px');
       $('#text-eleven').css("display",'none');
       $("#plus-eleven").css("overflow",'scroll').fadeIn(500,"swing");
       c2 = 1;
@@ -79,6 +91,26 @@ $(function(){
       check = 0;
       }
     });
+
+    picture[4] = document.getElementById("picture-eighteen");
+
+    Hammer(picture[4]).on("tap", function() {
+
+      if(c2 == 0){
+        $('.picllong').css('width',((width*0.9)*6)+'px');
+      $('#text-eighteen').css("display",'none');
+      $("#plus-eighteen").css("overflow",'scroll').fadeIn(500,"swing");
+      c2 = 1;
+      check = 1;
+      }
+      else if(c2 == 1){
+      $('#plus-eighteen').css("overflow",'hidden').css("display",'none');
+      $("#text-eighteen").fadeIn(500,"swing");
+      c2 = 0;
+      check = 0;
+      }
+    });
+
 /*
     picture[4] = document.getElementById("picture-six");
 

@@ -27,16 +27,81 @@ $(document).ready(function(){
 $('#wrap').css('width',(width*17)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
-
 if (window.location.hash === "#1-3-3-2") {
   $('#wrap').css('left',-aryLft[2]+'px');
   r += (2*width);
 }
 
-if (window.location.hash === "#1-5-3-11") {
+if (window.location.hash === "#1-6-3-11") {
   $('#wrap').css('left',-aryLft[11]+'px');
   r += (11*width);
 }
+
+if (window.location.hash === "#2-3-3-4") {
+  $('#wrap').css('left',-aryLft[4]+'px');
+  r += (4*width);
+}
+
+if (window.location.hash === "#3-2-3-9") {
+  $('#wrap').css('left',-aryLft[9]+'px');
+  r += (9*width);
+}
+
+if (window.location.hash === "#3-4-3-1") {
+  $('#wrap').css('left',-aryLft[1]+'px');
+  r += (1*width);
+}
+
+if (window.location.hash === "#3-6-3-5") {
+  $('#wrap').css('left',-aryLft[5]+'px');
+  r += (5*width);
+}
+
+if (window.location.hash === "#3-7-3-3") {
+  $('#wrap').css('left',-aryLft[3]+'px');
+  r += (3*width);
+}
+
+if (window.location.hash === "#4-2-3-6") {
+  $('#wrap').css('left',-aryLft[6]+'px');
+  r += (6*width);
+}
+
+if (window.location.hash === "#7-4-3-12") {
+  $('#wrap').css('left',-aryLft[12]+'px');
+  r += (12*width);
+}
+
+if (window.location.hash === "#9-1-3-15") {
+  $('#wrap').css('left',-aryLft[15]+'px');
+  r += (15*width);
+}
+
+if (window.location.hash === "#10-1-3-10") {
+  $('#wrap').css('left',-aryLft[10]+'px');
+  r += (10*width);
+}
+
+if (window.location.hash === "#10-2-3-16") {
+  $('#wrap').css('left',-aryLft[16]+'px');
+  r += (16*width);
+}
+
+if (window.location.hash === "#10-5-3-8") {
+  $('#wrap').css('left',-aryLft[8]+'px');
+  r += (8*width);
+}
+
+if (window.location.hash === "#10-6-3-14") {
+  $('#wrap').css('left',-aryLft[14]+'px');
+  r += (14*width);
+}
+
+if (window.location.hash === "#12-2-3-7") {
+  $('#wrap').css('left',-aryLft[7]+'px');
+  r += (7*width);
+}
+
 $(function(){
     var scrn = document.getElementById("wrap");
 

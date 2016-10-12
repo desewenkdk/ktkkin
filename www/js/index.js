@@ -1,5 +1,6 @@
 $(document).ready(function(){
   document.addEventListener("backbutton", onBackKeyDown, false);
+//  document.addEventListener("ondeviceready",onDeviceReady,false);
 
   function onBackKeyDown(e) {
      e.preventDefault();

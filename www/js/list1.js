@@ -25,15 +25,35 @@ $('#wrap').css('width',(width*11)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
 if (window.location.hash === "#1-2-1-3") {
-  $('#wrap').css('left',-aryLft[3]+'px');
+//  $('table').css('display','none');
+//  setTimeout(function(){ $('#wrap').css('left',-aryLft[3]+'px'); }, 500);
+ $('#wrap').css('left',-aryLft[3]+'px');
   r += (3*width);
 }
 
-if (window.location.hash === "#1-4-1-4") {
-  $('#wrap').css('left',-aryLft[4]+'px');
+if (window.location.hash === "#1-5-1-4") {
+//  setTimeout(function(){ $('#wrap').css('left',-aryLft[4]+'px'); }, 500);
+$('#wrap').css('left',-aryLft[4]+'px');
   r += (4*width);
 }
 
+if (window.location.hash === "#3-1-1-10") {
+//  setTimeout(function(){ $('#wrap').css('left',-aryLft[10]+'px'); }, 500);
+ $('#wrap').css('left',-aryLft[10]+'px');
+  r += (10*width);
+}
+
+if (window.location.hash === "#8-2-1-2") {
+//  setTimeout(function(){ $('#wrap').css('left',-aryLft[2]+'px'); }, 500);
+$('#wrap').css('left',-aryLft[2]+'px');
+  r += (2*width);
+}
+
+if (window.location.hash === "#11-1-1-1") {
+//  setTimeout(function(){ $('#wrap').css('left',-aryLft[1]+'px'); }, 500);
+$('#wrap').css('left',-aryLft[1]+'px');
+  r += (1*width);
+}
 
 var scrn = scrn = document.getElementById("wrap");
 $(function(){
@@ -60,6 +80,7 @@ $(function(){
     Hammer(picture[2]).on("tap", function() {
 
       if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*4)+'px');
       $('#text-two').css("display",'none');
       $("#plus-two").css("overflow",'scroll').fadeIn(500,"swing");
       c1 = 1;
@@ -115,16 +136,6 @@ $(function(){
 
   });
 
-$(function(){
-  Hammer(scrn).on("pinchin", function() {
-        alert(1);
-  });
-  Hammer(scrn).on("pinchout", function() {
-        alert(2);
-  });
-  Hammer(scrn).on("pinch", function() {
-        alert(3);
-  });
 
     Hammer(scrn).on("swipeleft", function() {
 
@@ -148,7 +159,7 @@ $(function(){
 
     }
     });
-});
+
 
       $('.f-btn').on('click',function(){
         if(r == 0){
@@ -230,20 +241,6 @@ $('.tag').on('click', function() {
   location.href = a[x-1];}
 });
 
-$('a[href*=#]:not([href=#])').click(function() {
-
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-          if (target.length) {
-              $('html,body').animate({
-                  scrollTop: target.offset().top
-              }, 1000); // 시간 설정
-              return false;
-          }
-      }
-  });
 /*
   $(window).scroll(function (){
     if(window.pageYOffset >= (height*11)){
@@ -267,4 +264,8 @@ if(b == 1){
   });
 }
 */
+
+
+
+
 });

@@ -36,12 +36,13 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
       <!--  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">-->
         <link rel="stylesheet" type="text/css" href="../css/list7.css">
+        <link rel="stylesheet" type="text/css" href="../css/list.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
         <!--script type="text/javascript" src="../js/hammer.js"></script-->
         <script type="text/javascript" src="../cordova.js"></script>
-
+        <script type="text/javascript" src="../js/hammer.js"></script>
           <script type="text/javascript" src="../js/list7.js"></script>
         <!--script type="text/javascript" src="../js/list-button.js"></script>
         <script type="text/javascript" src="../js/list.js"></script>
@@ -51,43 +52,333 @@
         <title>main page</title>
     </head>
     <body>
-    <div class="bback"></div>
-    <div class="towrap w-five">
+
+      <div class="toheader tocolor">
+
+        <div class="toheadtext">이달의 공군인<div class="headerback"></div></div>
+
+      </div>
+      <div class="towrap" id="todaywrap">
+        <div class="sidemonth">
+          <div class="toblock tocolor17 but1-1-4-19">
+            <div class="toroupic four-nineteen"></div>
+            <div class="totext"><span class="toname">나창준</span><br><span class="toyear"> 1928.01.07 ~ 1951.10.26 </span></div>
+          </div>
+          <div class="toblock tocolor18 but1-2-1-3">
+            <div class="toroupic one-three"></div>
+            <div class="totext"><span class="toname">노백린</span><br><span class="toyear"> 1875.01.10 ~ 1926.01.22 </span></div>
+          </div>
+          <div class="toblock tocolor16 but1-3-3-2">
+            <div class="toroupic three-two"></div>
+            <div class="totext"><span class="toname">권기옥</span><br><span class="toyear"> 1901.01.11 ~ 1988.04.19 </span></div>
+          </div>
+          <div class="toblock tocolor17 but1-4-2-7">
+            <div class="toroupic two-seven"></div>
+            <div class="totext"><span class="toname">이근석</span><br><span class="toyear"> 1917.01.17 ~ 1950.07.04 </span></div>
+          </div>
+          <div class="toblock tocolor18 but1-5-1-4">
+            <div class="toroupic one-four"></div>
+            <div class="totext"><span class="toname">김종림</span><br><span class="toyear"> 1884.01.19 ~ 1973.01.26 </span></div>
+          </div>
+          <div class="toblock tocolor16 but1-6-3-11">
+            <div class="toroupic three-eleven"></div>
+            <div class="totext"><span class="toname">이정희</span><br><span class="toyear"> 1910.01.26 ~ 미상 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;1월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor14 but2-1-4-15">
+            <div class="toroupic four-fifteen"></div>
+            <div class="totext"><span class="toname">이기협</span><br><span class="toyear"> 1926.02.04 ~ 1955.04.07 </span></div>
+          </div>
+          <div class="toblock tocolor15 but2-2-4-22">
+            <div class="toroupic four-tweenty-two"></div>
+            <div class="totext"><span class="toname">전구서</span><br><span class="toyear"> 1927.02.07 ~ 1950.10.07 </span></div>
+          </div>
+          <div class="toblock tocolor13 but2-3-3-4">
+            <div class="toroupic three-four"></div>
+            <div class="totext"><span class="toname">전상국</span><br><span class="toyear"> 1907.02.16 ~ 1938.08.21 </span></div>
+          </div>
+          <div class="toblock tocolor14 but2-4-4-13">
+            <div class="toroupic four-thirteen"></div>
+            <div class="totext"><span class="toname">신철수</span><br><span class="toyear"> 1926.02.24 ~ 1951.12.15 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;2월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor11 but3-1-1-10">
+            <div class="toroupic one-ten"></div>
+            <div class="totext"><span class="toname-1">윌로우스 비행학교</span><br><span class="toyear"> 1920.03.  ~  1921.04. </span></div>
+          </div>
+          <div class="toblock tocolor12 but3-2-3-9">
+            <div class="toroupic three-nine"></div>
+            <div class="totext"><span class="toname">임도현</span><br><span class="toyear"> 1909.03.04 ~ 1952.07.21 </span></div>
+          </div>
+          <div class="toblock tocolor10 but3-3-4-16">
+            <div class="toroupic four-sixteen"></div>
+            <div class="totext"><span class="toname">박희동</span><br><span class="toyear"> 1924.03.07 ~ 1989.07.19 </span></div>
+          </div>
+          <div class="toblock tocolor11 but3-4-3-1">
+            <div class="toroupic three-one"></div>
+            <div class="totext"><span class="toname">서왈보</span><br><span class="toyear"> 1886.03.09 ~ 1926.05.06 </span></div>
+          </div>
+          <div class="toblock tocolor12 but3-5-2-4">
+            <div class="toroupic two-four"></div>
+            <div class="totext"><span class="toname">이영무</span><br><span class="toyear"> 1904.03.13 ~ 미상 </span></div>
+          </div>
+          <div class="toblock tocolor10 but3-6-3-5">
+            <div class="toroupic three-five"></div>
+            <div class="totext"><span class="toname">김연기</span><br><span class="toyear"> 1910.03.17 ~ 미상 </span></div>
+          </div>
+          <div class="toblock tocolor11 but3-7-3-3">
+            <div class="toroupic three-three"></div>
+            <div class="totext"><span class="toname">안창남</span><br><span class="toyear"> 1901.03.19 ~ 1930.04.02 </span></div>
+          </div>
+          <div class="toblock tocolor12 but3-8-4-12">
+            <div class="toroupic four-twelve"></div>
+            <div class="totext"><span class="toname">김현일</span><br><span class="toyear"> 1928.03.22 ~ 1953.06.13 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;3월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor8 but4-1-4-6">
+            <div class="toroupic four-six"></div>
+            <div class="totext"><span class="toname">강호륜</span><br><span class="toyear"> 1925.04.02 ~ 1990.03.12 </span></div>
+          </div>
+          <div class="toblock tocolor9 but4-2-3-6">
+            <div class="toroupic three-six"></div>
+            <div class="totext"><span class="toname">민성기</span><br><span class="toyear"> 1894.04.27 ~ 미상 </span></div>
+          </div>
+          <div class="todaywhitebackpage4-2"></div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;4월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor7 but5-1-2-3">
+            <div class="toroupic two-three"></div>
+            <div class="totext"><span class="toname">장덕창</span><br><span class="toyear"> 1903.05.09 ~ 1972.07.11 </span></div>
+          </div>
+          <div class="todaywhitebackpage5-3"></div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;5월</div></div>
+        </div>
+
+        <div class="sidemonth">
+
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;6월</div></div>
+          <div class="todaywhitebackpage6-4"></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor2 but7-1-4-1">
+            <div class="toroupic four-one"></div>
+            <div class="totext"><span class="toname">박두원</span><br><span class="toyear"> 1926.07.05 ~ 1952.08.02 </span></div>
+          </div>
+          <div class="toblock tocolor3 but7-2-4-21">
+            <div class="toroupic four-tweenty-one"></div>
+            <div class="totext"><span class="toname">김성룡</span><br><span class="toyear"> 1926.07.09 ~ 2002.11.09 </span></div>
+          </div>
+          <div class="toblock tocolor1 but7-3-4-8">
+            <div class="toroupic four-eight"></div>
+            <div class="totext"><span class="toname">이경복</span><br><span class="toyear"> 1924.07.12 ~ 1950.06.30 </span></div>
+          </div>
+          <div class="toblock tocolor2 but7-4-3-12">
+            <div class="toroupic three-twelve"></div>
+            <div class="totext"><span class="toname">김은제</span><br><span class="toyear"> 1906.07.15 ~ 1936.10.29 </span></div>
+          </div>
+          <div class="toblock tocolor3 but7-5-4-5">
+            <div class="toroupic four-five"></div>
+            <div class="totext"><span class="toname">유치곤</span><br><span class="toyear"> 1927.07.17 ~ 1965.01.01 </span></div>
+          </div>
+          <div class="toblock tocolor1 but7-6-4-17">
+            <div class="toroupic four-seventeen"></div>
+            <div class="totext"><span class="toname">장동출</span><br><span class="toyear"> 1925.07.20 ~ 1950.09.10 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;7월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor5 but8-1-4-9">
+            <div class="toroupic four-nine"></div>
+            <div class="totext"><span class="toname">이일영</span><br><span class="toyear"> 1928.08.26 ~ 1952.01.09 </span></div>
+          </div>
+          <div class="toblock tocolor6 but8-2-1-2">
+            <div class="toroupic one-two"></div>
+            <div class="totext"><span class="toname">김 구</span><br><span class="toyear"> 1876.08.29 ~ 1949.06.26 </span></div>
+          </div>
+          <div class="todaywhitebackpage4-2"></div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;8월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor14 but9-1-3-15">
+            <div class="toroupic-1 tocolor14"></div>
+            <div class="totext"><span class="toname">차정신</span><br><span class="toyear"> &nbsp;&nbsp;1898.09. ~  미상 </span></div>
+          </div>
+          <div class="toblock tocolor15 but9-2-2-5">
+            <div class="toroupic two-five"></div>
+            <div class="totext"><span class="toname">박범집</span><br><span class="toyear"> 1917.09.07 ~ 1950.11.12 </span></div>
+          </div>
+          <div class="toblock tocolor13 but9-3-2-1">
+            <div class="toroupic two-one"></div>
+            <div class="totext"><span class="toname">최용덕</span><br><span class="toyear"> 1898.09.19 ~ 1969.08.15 </span></div>
+          </div>
+          <div class="toblock tocolor14 but9-3-2-2">
+            <div class="toroupic two-two"></div>
+            <div class="totext"><span class="toname">김정렬</span><br><span class="toyear"> 1917.09.29 ~ 1992.09.07 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext">&nbsp;&nbsp;9월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor17 but10-1-3-10">
+            <div class="toroupic three-ten"></div>
+            <div class="totext"><span class="toname">김원영</span><br><span class="toyear"> 1895.10.  ~ 1945.03.24 </span></div>
+          </div>
+          <div class="toblock tocolor18 but10-2-3-16">
+            <div class="toroupic three-sixteen"></div>
+            <div class="totext"><span class="toname">장성철</span><br><span class="toyear"> 1895.10. ~ 미상 </span></div>
+          </div>
+          <div class="toblock tocolor16 but10-3-5-2">
+            <div class="toroupic five-two"></div>
+            <div class="totext"><span class="toname">김도현</span><br><span class="toyear"> 1973.10.01 ~ 2006.05.05 </span></div>
+          </div>
+          <div class="toblock tocolor17 but10-4-4-7">
+            <div class="toroupic four-seven"></div>
+            <div class="totext"><span class="toname">천봉식</span><br><span class="toyear"> 1926.10.07 ~ 1950.09.01 </span></div>
+          </div>
+          <div class="toblock tocolor18 but10-5-3-8">
+            <div class="toroupic three-eight"></div>
+            <div class="totext"><span class="toname">김공집</span><br><span class="toyear"> 1895.10.25 ~ 1927.08.31 </span></div>
+          </div>
+          <div class="toblock tocolor16 but10-6-3-14">
+            <div class="toroupic three-fourteen"></div>
+            <div class="totext"><span class="toname">정재섭</span><br><span class="toyear"> 1903.10.26 ~ 미상 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext-1">&nbsp;10월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor2 but11-1-1-1">
+            <div class="toroupic one-one"></div>
+            <div class="totext"><span class="toname">안창호</span><br><span class="toyear"> 1878.11.09 ~ 1938.03.10 </span></div>
+          </div>
+          <div class="toblock tocolor3 but11-2-4-14">
+            <div class="toroupic four-fourteen"></div>
+            <div class="totext"><span class="toname">최종봉</span><br><span class="toyear"> 1926.11.20 ~ 1951.04.16 </span></div>
+          </div>
+          <div class="toblock tocolor1 but11-3-4-20">
+            <div class="toroupic four-tweenty"></div>
+            <div class="totext"><span class="toname">김금성</span><br><span class="toyear"> 1927.11.27 ~ 1961.08.19 </span></div>
+          </div>
+          <div class="toblock tocolor2 but11-4-4-11">
+            <div class="toroupic four-eleven"></div>
+            <div class="totext"><span class="toname">이찬권</span><br><span class="toyear"> 1931.11.30 ~ 1992.02.11 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext-1">&nbsp;11월</div></div>
+        </div>
+
+        <div class="sidemonth">
+          <div class="toblock tocolor8 but12-1-4-23">
+            <div class="toroupic four-tweenty-three"></div>
+            <div class="totext"><span class="toname">딘 헤스</span><br><span class="toyear"> 1917.12.06 ~ 2015.03.03 </span></div>
+          </div>
+          <div class="toblock tocolor9 but12-2-3-7">
+            <div class="toroupic-1 tocolor9"></div>
+            <div class="totext"><span class="toname">박태하</span><br><span class="toyear"> 1893.12.17 ~ 미상 </span></div>
+          </div>
+          <div class="toblock tocolor7 but12-3-4-18">
+            <div class="toroupic four-eighteen"></div>
+            <div class="totext"><span class="toname">이상수</span><br><span class="toyear"> 1926.12.18 ~ 1950.10.13 </span></div>
+          </div>
+          <div class="toblock tocolor8 but12-4-4-10">
+            <div class="toroupic four-ten"></div>
+            <div class="totext"><span class="toname">최종성</span><br><span class="toyear"> 1931.12.19 ~ 1952.11.02 </span></div>
+          </div>
+          <div class="toblock tocolor9 but12-5-5-4">
+            <div class="toroupic five-four"></div>
+            <div class="totext"><span class="toname">오충현</span><br><span class="toyear"> 1966.12.21 ~ 2010.03.02 </span></div>
+          </div>
+          <div class="toblock tocolor7 but12-6-4-4">
+            <div class="toroupic four-four"></div>
+            <div class="totext"><span class="toname">임택순</span><br><span class="toyear"> 1930.12.31 ~ 1953.03.06 </span></div>
+          </div>
+          <div class="toshowmonth tocolor"><div class="monthtext-1">&nbsp;12월</div></div>
+        </div>
+
+        <div class="todaystep"></div>
+      </div>
+
+      <div class="timefoot tocolor">
+        <div class="timebackhome"></div>
+      </div>
+
+
+
+    <!--div class="bback"></div>
+    <div class="towrap">
     <div class="block 1st ab">
       <div class="header">
         이달의 공군인
       </div>
       <div class="wrap but1-1-4-19">
       <div class="list">
-        <span class="icon four"></span>공군 소령<br>나창준<br>(1928.1.7 ~ 1951.10.26)
+        <span class="icon four"></span>
+        <span class="birthtext">
+        공군 소령<br>나창준<br>(1928.1.7 ~ 1951.10.26)
+      </span>
       </div>
     </div>
 
 
       <div class="wrap but1-2-1-3">
       <div class="list">
-        <span class="icon one"></span>윌로우스 비행학교를 창설한<Br>노백린<Br>(1875.1.10 ~ 1926.1.22)
+        <span class="icon one"></span>
+        <span class="birthtext">
+          윌로우스 비행학교를 창설한<Br>노백린<Br>(1875.1.10 ~ 1926.1.22)
+          </span>
+
       </div>
     </div>
 
 
       <div class="wrap but1-3-3-2">
       <div class="list">
-        <span class="icon three"></span>한국인 최초의 여성비행사<br>권기옥<br>(1901.1.11 ~ 1988.4.19)
+        <span class="icon three"></span>
+        <span class="birthtext">
+          한국인 최초의 여성비행사<br>권기옥<br>(1901.1.11 ~ 1988.4.19)
+        </span>
+      </div>
+    </div>
+
+    <div class="wrap but1-4-2-7">
+    <div class="list">
+      <span class="icon two"></span>
+      <span class="birthtext">
+      조국 하늘의 수호신<br>이근석<br>(1917.1.17 ~ 1950.7.4)
+    </span>
+    </div>
+  </div>
+
+
+      <div class="wrap but1-5-1-4">
+      <div class="list">
+       <span class="icon one"></span>
+       <span class="birthtext">
+         비행학교를 세운 애국지사<br>김종림<br>(1884.1.19 ~ 1973.1.26)
+      </span>
       </div>
     </div>
 
 
-      <div class="wrap but1-4-1-4">
+      <div class="wrap but1-6-3-11">
       <div class="list">
-       <span class="icon one"></span>비행학교를 세운 애국지사<br>김종림<br>(1884.1.19 ~ 1973.1.26)
-      </div>
-    </div>
-
-
-      <div class="wrap but1-5-3-11">
-      <div class="list">
-        <span class="icon three"></span>대한민국 최초 공군 여군<br>이정희<br>(1910.1.26 ~ 미상)
+        <span class="icon three"></span>
+      <span class="birthtext">
+        대한민국 최초 공군 여군<br>이정희<br>(1910.1.26 ~ 미상)
+      </span>
       </div>
     </div>
 
@@ -101,14 +392,20 @@
         </div>
         <div class="wrap but2-1-2-4">
         <div class="list">
-          <span class="icon four"></span>대한민국 공군의 초대비행단장<br>이영무<br>(1894.2.17 ~ 미상)
+          <span class="icon four"></span>
+          <span class="birthtext">
+          대한민국 공군의 초대비행단장<br>이영무<br>(1894.2.17 ~ 미상)
+        </span>
         </div>
       </div>
 
 
         <div class="wrap but1-2-1-3">
         <div class="list">
-          <span class="icon one"></span>윌로우스 비행학교를 창설한<Br>노백린<Br>(1875.1.10 ~ 1926.1.22)
+          <span class="icon one"></span>
+          <span class="birthtext">
+            윌로우스 비행학교를 창설한<Br>노백린<Br>(1875.1.10 ~ 1926.1.22)
+          </span>
         </div>
       </div>
 
@@ -171,6 +468,6 @@
 
 
 
-    </div>
+    </div-->
     </body>
 </html>

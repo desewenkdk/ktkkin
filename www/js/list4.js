@@ -27,8 +27,108 @@ $('#wrap').css('width',(width*24)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
 if (window.location.hash === "#1-1-4-19") {
-  $('#wrap').css('left',-aryLft[19]+'px');
+   $('#wrap').css('left',-aryLft[19]+'px');
   r += (19*width);
+}
+
+if (window.location.hash === "#2-1-4-15") {
+  $('#wrap').css('left',-aryLft[15]+'px');
+  r += (15*width);
+}
+
+if (window.location.hash === "#2-2-4-22") {
+  $('#wrap').css('left',-aryLft[22]+'px');
+  r += (22*width);
+}
+
+if (window.location.hash === "#2-4-4-13") {
+  $('#wrap').css('left',-aryLft[13]+'px');
+  r += (13*width);
+}
+
+if (window.location.hash === "#3-3-4-16") {
+   $('#wrap').css('left',-aryLft[16]+'px');
+  r += (16*width);
+}
+
+if (window.location.hash === "#3-8-4-12") {
+  $('#wrap').css('left',-aryLft[12]+'px');
+  r += (12*width);
+}
+
+if (window.location.hash === "#4-1-4-6") {
+  $('#wrap').css('left',-aryLft[6]+'px');
+  r += (6*width);
+}
+
+if (window.location.hash === "#7-1-4-1") {
+  $('#wrap').css('left',-aryLft[1]+'px');
+  r += (1*width);
+}
+
+if (window.location.hash === "#7-2-4-21") {
+  $('#wrap').css('left',-aryLft[21]+'px');
+  r += (21*width);
+}
+
+if (window.location.hash === "#7-3-4-8") {
+   $('#wrap').css('left',-aryLft[8]+'px');
+  r += (8*width);
+}
+
+if (window.location.hash === "#7-5-4-5") {
+   $('#wrap').css('left',-aryLft[5]+'px');
+  r += (5*width);
+}
+
+if (window.location.hash === "#7-6-4-17") {
+$('#wrap').css('left',-aryLft[17]+'px');
+  r += (17*width);
+}
+
+if (window.location.hash === "#8-1-4-9") {
+ $('#wrap').css('left',-aryLft[9]+'px');
+  r += (9*width);
+}
+
+if (window.location.hash === "#10-4-4-7") {
+   $('#wrap').css('left',-aryLft[7]+'px');
+  r += (7*width);
+}
+
+if (window.location.hash === "#11-2-4-14") {
+   $('#wrap').css('left',-aryLft[14]+'px');
+  r += (14*width);
+}
+
+if (window.location.hash === "#11-3-4-20") {
+   $('#wrap').css('left',-aryLft[20]+'px');
+  r += (20*width);
+}
+
+if (window.location.hash === "#11-4-4-11") {
+  $('#wrap').css('left',-aryLft[11]+'px');
+  r += (11*width);
+}
+
+if (window.location.hash === "#12-1-4-23") {
+ $('#wrap').css('left',-aryLft[23]+'px');
+  r += (23*width);
+}
+
+if (window.location.hash === "#12-3-4-18") {
+   $('#wrap').css('left',-aryLft[18]+'px');
+  r += (18*width);
+}
+
+if (window.location.hash === "#12-4-4-10") {
+  $('#wrap').css('left',-aryLft[10]+'px');
+  r += (10*width);
+}
+
+if (window.location.hash === "#12-6-4-4") {
+  $('#wrap').css('left',-aryLft[4]+'px');
+  r += (4*width);
 }
 
 
@@ -86,6 +186,44 @@ $(function(){
       else if(c1 == 1){
       $('#plus-thirteen').css("overflow",'hidden').css("display",'none');
       $("#text-thirteen").fadeIn(500,"swing");
+      c1 = 0;
+      check = 0;
+      }
+    });
+
+    picture[4] = document.getElementById("picture-sixteen");
+
+    Hammer(picture[4]).on("tap", function() {
+
+      if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*2)+'px');
+      $('#text-sixteen').css("display",'none');
+      $("#plus-sixteen").css("overflow",'scroll').fadeIn(500,"swing");
+      c1 = 1;
+      check = 1;
+      }
+      else if(c1 == 1){
+      $('#plus-sixteen').css("overflow",'hidden').css("display",'none');
+      $("#text-sixteen").fadeIn(500,"swing");
+      c1 = 0;
+      check = 0;
+      }
+    });
+
+    picture[5] = document.getElementById("picture-seventeen");
+
+    Hammer(picture[5]).on("tap", function() {
+
+      if(c1 == 0){
+        $('.picllong').css('width',((width*0.9)*2)+'px');
+      $('#text-seventeen').css("display",'none');
+      $("#plus-seventeen").css("overflow",'scroll').fadeIn(500,"swing");
+      c1 = 1;
+      check = 1;
+      }
+      else if(c1 == 1){
+      $('#plus-seventeen').css("overflow",'hidden').css("display",'none');
+      $("#text-seventeen").fadeIn(500,"swing");
       c1 = 0;
       check = 0;
       }
