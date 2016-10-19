@@ -36,6 +36,11 @@ if (window.location.hash === "#5-1-2-3") {
   r += (3*width);
 }
 
+if (window.location.hash === "#6-1-2-6") {
+  $('#wrap').css('left',-aryLft[6]+'px');
+  r += (6*width);
+}
+
 if (window.location.hash === "#9-2-2-5") {
   $('#wrap').css('left',-aryLft[5]+'px');
   r += (5*width);
@@ -47,7 +52,7 @@ if (window.location.hash === "#9-3-2-1") {
 }
 
 if (window.location.hash === "#9-3-2-2") {
-  $('#wrap').css('left',-aryLft[2]+'px'); 
+  $('#wrap').css('left',-aryLft[2]+'px');
   r += (2*width);
 }
 

@@ -422,6 +422,7 @@ hr {
 }
 .plus {
   margin-top: 2%;
+
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -441,6 +442,7 @@ hr {
 }
 .picllong {
   height:230px;
+
 }
 .plussize {
   height:250px;
@@ -723,12 +725,12 @@ background-size: 100% 100%;
   position: absolute;
   top:100px;
   width:100%;
-  overflow: hidden;
 }
 
 .timestep {
   height:70px;
   width:100%;
+  float:left;
 }
 .themapic {
   width:50%;

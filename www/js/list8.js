@@ -1,5 +1,12 @@
 $(document).ready(function(){
+  var height = $(window).innerHeight();
+  var width = $(window).innerWidth();
 
+  $('.timefixhead').css('font-size',(width*0.0972222)+'px');
+  $('.timelineicon').css('width',(width*0.111111111)+'px').css('height',(width*0.111111111)+'px');
+  $('.themapic').css('height',((height-172)/3)+'px');
+  $('.themapic-1').css('height',((height-172)/3)+'px');
+  $('.thematext').css('font-size',(height*0.0296875)+'px');
 
 
   $('.t-home').on('click',function(){

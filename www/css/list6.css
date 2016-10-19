@@ -1,0 +1,233 @@
+.ucccolorred { background-color: #d94452;} /*어두운 빨강*/
+
+.ucccolor1 { background-color: #e8563f;}
+.ucccolor2 { background-color: #fb6d51;}
+.ucccolor3 { background-color: #fc8370;} /*주황색 3개*/
+
+.ucccolor6 { background-color: #fcd277;}
+.ucccolor5 { background-color: #fecd57;}
+.ucccolor4 { background-color: #f5ba45;} /*노란색 3개*/
+
+.ucccolorgre { background-color: #46cead;} /*청록색*/
+
+.ucccolor7 { background-color: #8ac054;}
+.ucccolor8 { background-color: #9ed36a;}
+.ucccolor9 { background-color: #b4e080;} /*연두색 3개*/
+
+.ucccolor10 { background-color: #35bb9b;}
+.ucccolor11 { background-color: #46cead;}
+.ucccolor12 { background-color: #62ddbd;} /*하늘색 3개*/
+
+.ucccolorblu { background-color: #5e9cea;} /*파란색*/
+
+.ucccolor13 { background-color: #967ada;}
+.ucccolor14 { background-color: #ac92ea;}
+.ucccolor15 { background-color: #b3a5ea;} /*보라색 3개*/
+
+.ucccolorpur { background-color: #ac92ea;} /*보라색*/
+
+.ucccolor16 { background-color: #4b89da;}
+.ucccolor17 { background-color: #5e9cea;}
+.ucccolor18 { background-color: #73b1f4;} /*파란색 3개*/
+
+.ggg {
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+
+.gg {
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+
+.g {
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+body {
+  margin:0px;
+  padding:0px;
+}
+
+.uccHead {
+  position:fixed;
+  top:0px;
+  width:100%;
+  color:white;
+  height:140px;
+  font-size: 35px;
+  letter-spacing: .1em;
+  z-index: 10;
+  text-align: right;
+  border-bottom-style: solid;
+  font-weight: 900;
+
+}
+
+.uccHeadText {
+  padding-top:14%;
+}
+
+.uccIcon {
+  background-image: url(../img/six.png);
+  width:40px;
+  height:40px;
+  background-size: 100% 100%;
+  float:right;
+  margin-right: 10%;
+  margin-left: 3.5%;
+}
+
+.uccWrap {
+  position:absolute;
+  top:143px;
+  width:100%;
+}
+.great-great-great{ background-color: #f5ba45; }
+.great-great{ background-color: silver;}
+.great{ background-color: brown;}
+
+.greatBlock {
+  width:100%;
+  height:80px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  top:0px;
+}
+
+.greatText {
+  padding-top:8%;
+  font-size:20px;
+  font-weight: 600;
+  letter-spacing: .3em;
+  color:white;
+}
+/*
+.video-ggg-wrap {
+  width:100%;
+  height:200px;
+  top:-120px;
+  position:relative;
+  z-index: 3;
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+
+.video-gg-wrap {
+  width:100%;
+  height:380px;
+  top:-420px;
+  position:relative;
+  z-index: 2;
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+
+
+.video-g-wrap {
+  width:100%;
+  height:300px;
+  top:-720px;
+  position:relative;
+  z-index: 1;
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+*/
+
+.videoBlock-ggg {
+  width:100%;
+  height:60px;  /*60px*/
+  position: relative;
+  display: none;
+}
+
+.videoBlock-gg {
+  width:100%;
+  height:60px;  /*60px*/
+  position: relative;
+  display: none;
+}
+
+.videoBlock-g {
+  width:100%;
+  height:60px;  /*60px*/
+  position: relative;
+  display: none;
+}
+.videoTrans {
+  transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+}
+.videoText-ggg {
+
+  width:100%;
+  text-align: center;
+  color:white;
+  padding-top:6%;
+/*  opacity: 0;*/
+}
+
+.videoText-gg {
+
+  width:100%;
+  text-align: center;
+  color:white;
+  padding-top:6%;
+  /*opacity: 0;*/
+}
+
+.videoText-g {
+
+  width:100%;
+  text-align: center;
+  color:white;
+  padding-top:6%;
+  /*opacity: 0;*/
+}
+
+.uccStep {
+  width:100%;
+  height:70px;
+  bottom:0px;
+}
+
+.uccFoot {
+  border-top-style: solid;
+  border-top-color: white;
+  width:100%;
+  height:70px;
+  position:fixed;
+  bottom:0px;
+  z-index: 10;
+
+}
+.uccHome {
+  background-image: url(../img/home.png);
+  background-size: 100% 100%;
+  height:60px;
+  width: 60px;
+  margin:5px auto;
+}

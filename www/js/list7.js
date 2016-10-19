@@ -190,6 +190,10 @@ $('.todaywhitebackpage6-4').css('height',(blk*4)+'px');
         window.location.href="../list/list2.html#5-1-2-3";
       });
 
+      $('.but6-1-2-6').on('click',function(){
+        $('.but6-1-2-6').css('background-color','rgb(0,0,0)');
+        window.location.href="../list/list2.html#6-1-2-6";
+      });
 
       $('.but7-1-4-1').on('click',function(){
         $('.but7-1-4-1').css('background-color','rgb(0,0,0)');

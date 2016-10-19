@@ -6,6 +6,7 @@ $(document).ready(function(){
   var c = 0, c1 = 0, check = 0;
   var r = 0, x = 0;
   var aryLft = [];
+
   for(var i = 1 ; i < 11 ; i++)
   {
     aryLft[i] = i*width;
@@ -21,6 +22,8 @@ $(document).ready(function(){
           'http:/www.mpva.go.kr/narasarang/gonghun_view.asp?id=8464&ipp=10000',//한장호
           'http:/www.mpva.go.kr/narasarang/gonghun_list.asp'
 ];
+
+
 $('#wrap').css('width',(width*11)+'px').css('height',(height)+'px');
 $('.foot').css('left',(0)+'px');
 
@@ -158,6 +161,7 @@ $(function(){
       $('#wrap').removeClass("trans").css('left',-(r)+'px');
 
     }
+
     });
 
 
