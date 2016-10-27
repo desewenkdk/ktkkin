@@ -64,7 +64,26 @@
     $('.morepic').css('top',(height*0.125)+'px').css('left',(height*0.146875)+'px')
 
     $('.home-btn').on('click',function(){
+
+        height = 0;
+        width = 0;
+        picture = [];
+        c = 0, c1 = 0, check = 0;
+        r = 0, x = 0;
+        aryLft = [];
+        a = [];
+        $("html").remove();
+      //  $('.list-text').remove();
+        //$('.first-list-text').remove();
+      //  $('.bodyback1').remove();
+        //alert(height+width+r+c+x+c1+check);
+      //  alert(a);
+      //  alert(aryLft);
+      //  alert(picture);
+      // todo.
       location.href="../index.html";
+      //window.history.back();
+      //window.history.back();
     });
 
 

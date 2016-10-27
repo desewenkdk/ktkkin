@@ -19,6 +19,16 @@ function fcm(){
 }
 
 function onDeviceReady(){
+  var token = FCMPlugin.getToken(
+   function(token){
+      alert(token);
+      return token;
+    },
+    function(err){
+      console.log('error retrieving token: ' + err);
+    }
+  );
+  FCMPlugin.subscribeToTopic('topicExample');
   fcm();
 }
 
@@ -32,7 +42,12 @@ function onResume(){
   fcm();
 }
 
+
+
 $(document).ready(function(){
+
+//  alert("index.js ready");
+
   document.addEventListener("backbutton", onBackKeyDown, false);
 //  document.addEventListener("ondeviceready",onDeviceReady,false);
   document.addEventListener("deviceready",onDeviceReady, false);
@@ -42,6 +57,8 @@ $(document).ready(function(){
 
   function onBackKeyDown(e) {
      e.preventDefault();
+     navigator.app.clearCache();
+     navigator.app.clearHistory();
      navigator.app.exitApp();
   }
 
@@ -57,34 +74,76 @@ var width = $(window).innerWidth();
 //$('.ikon').css('height',(height* 0.0625)+'px').css('width',(width*0.111111)+'px').css('margin-top',(height*0.0125)+'px').css('margin-bottom',(height*0.0125)+'px');
 
 $('.but1').on('click',function(){
-  location.href = "list/list1.html";
+
+    height = 0;
+    width = 0;
+    picture = [];
+    c = 0, c1 = 0, check = 0;
+    r = 0, x = 0;
+    aryLft = [];
+    a = [];
+    $("html").remove();
+  //  $('.list-text').remove();
+    //$('.first-list-text').remove();
+  //  $('.bodyback1').remove();
+    //alert(height+width+r+c+x+c1+check);
+  //  alert(a);
+  //  alert(aryLft);
+  //  alert(picture);
+
+
+
+//  alert(page_flag.list1);
+  location.href="list/list1.html";
+  /*if(page_flag.list1 == false) {
+    page_flag.list1 = true;
+    location.href = "list/list1.html";
+  }
+  else {
+    location.replace("list/list1.html");
+  }*/
+
 });
 
 $('.but2').on('click',function(){
+
+
   location.href = "list/list2.html";
 });
 
 $('.but3').on('click',function(){
+
+
   location.href = "list/list3.html";
 });
 
 $('.but4').on('click',function(){
+
+
   location.href = "list/list4.html";
 });
 
 $('.but5').on('click',function(){
+
+
   location.href = "list/list5.html";
 });
 
 $('.but6').on('click',function(){
+
+
   location.href = "list/list6.html";
 });
 
 $('.but7').on('click',function(){
+
+
   location.href = "list/list7.html";
 });
 
 $('.but8').on('click',function(){
+
+
   location.href = "list/list8.html";
 });
 

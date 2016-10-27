@@ -10,11 +10,15 @@ $(document).ready(function(){
 
 
   $('.t-home').on('click',function(){
+
+
     location.href="../index.html";
 
   });
 
   $('.t-backthema').on('click',function(){
+
+    
     location.href="../list/list8.html";
 
   });

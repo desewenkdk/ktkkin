@@ -167,9 +167,13 @@ $(function(){
 
       $('.f-btn').on('click',function(){
         if(r == 0){
+
+
           location.href="../index.html";
         }
         else{
+
+
           location.href="../list/list1.html";
         /*
         $("#wrap").addClass("trans");
@@ -238,9 +242,13 @@ $(function(){
 
 $('.tag').on('click', function() {
   if(r == 0){
+
+
     location.href = ' ';
   }
   else{
+
+
   x = r/width;
   location.href = a[x-1];}
 });
@@ -269,7 +277,10 @@ if(b == 1){
 }
 */
 
-
-
-
 });
+
+
+funtion p(){
+  var p1 = asdfsadf
+
+}

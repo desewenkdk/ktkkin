@@ -168,11 +168,6 @@ span{
 -ms-transform:skew(0deg,-25deg); /* IE 9 */
 -webkit-transform:skew(0deg,-25deg);
   margin-left: -20%;
-  transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
 }
 
 .back {
@@ -184,11 +179,6 @@ span{
   z-index: 1;
   position:absolute;
   top:0px;
-  transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
   overflow: hidden;
 }
 

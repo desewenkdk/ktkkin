@@ -326,6 +326,8 @@ $('.todaywhitebackpage6-4').css('height',(blk*4)+'px');
 
       function onBackKeyDown(e) {
          e.preventDefault();
+         
+
          location.href = "../index.html";
       }
 });

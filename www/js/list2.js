@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
   var height = $(window).innerHeight();
   var width = $(window).innerWidth();
   var picture = [];
@@ -184,9 +186,43 @@ $(function(){
 
       $('.f-btn').on('click',function(){
         if(r == 0){
+
+          /*
+            height = 0;
+            width = 0;
+            picture = [];
+            c = 0, c1 = 0, check = 0;
+            r = 0, x = 0;
+            aryLft = [];
+            a = [];*/
+            $("html").remove();
+          //  $('.list-text').remove();
+            //$('.first-list-text').remove();
+          //  $('.bodyback1').remove();
+            //alert(height+width+r+c+x+c1+check);
+          //  alert(a);
+          //  alert(aryLft);
+          //  alert(picture);
           location.href="../index.html";
         }
         else{
+          /*
+            height = 0;
+            width = 0;
+            picture = [];
+            c = 0, c1 = 0, check = 0;
+            r = 0, x = 0;
+            aryLft = [];
+            a = [];*/
+            $("html").remove();
+          //  $('.list-text').remove();
+            //$('.first-list-text').remove();
+          //  $('.bodyback1').remove();
+            //alert(height+width+r+c+x+c1+check);
+          //  alert(a);
+          //  alert(aryLft);
+          //  alert(picture);
+
           location.href="../list/list2.html";
         /*
         $("#wrap").addClass("trans");
@@ -238,27 +274,17 @@ $(function(){
     });
     $('.tag').on('click', function() {
       if(r == 0){
+
+
         location.href = ' ';
       }
       else{
+
+
       x = r/width;
 
       location.href = a[x-1];}
     });
 
-    $('a[href*=#]:not([href=#])').click(function() {
-
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-              if (target.length) {
-                  $('html,body').animate({
-                      scrollTop: target.offset().top
-                  }, 1000); // 시간 설정
-                  return false;
-              }
-          }
-      });
 
 });

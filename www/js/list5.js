@@ -30,7 +30,7 @@ if (window.location.hash === "#10-3-5-2") {
   r += (2*width);
 }
 if (window.location.hash === "#12-5-5-4") {
-   $('#wrap').css('left',-aryLft[4]+'px'); 
+   $('#wrap').css('left',-aryLft[4]+'px');
   r += (4*width);
 }
 
@@ -161,9 +161,13 @@ $(function(){
 
       $('.f-btn').on('click',function(){
         if(r == 0){
+
+
           location.href="../index.html";
         }
         else{
+
+
           location.href="../list/list5.html";
         /*
         $("#wrap").addClass("trans");
@@ -200,27 +204,18 @@ $(function(){
     });
     $('.tag').on('click', function() {
       if(r == 0){
+
+
         location.href = ' ';
       }
       else{
+        
+
       x = r/width;
 
       location.href = a[x-1];}
     });
 
-    $('a[href*=#]:not([href=#])').click(function() {
 
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-              if (target.length) {
-                  $('html,body').animate({
-                      scrollTop: target.offset().top
-                  }, 1000); // 시간 설정
-                  return false;
-              }
-          }
-      });
 
 });

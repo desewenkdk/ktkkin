@@ -297,9 +297,13 @@ $(function(){
 
       $('.f-btn').on('click',function(){
         if(r == 0){
+
+
           location.href="../index.html";
         }
         else{
+
+
           location.href="../list/list4.html";
         /*
         $("#wrap").addClass("trans");
@@ -436,24 +440,12 @@ $(function(){
 
     $('.tag').on('click', function() {
       if(r == 0){
+
+        
         location.href = ' ';
       }
     });
 
-    $('a[href*=#]:not([href=#])').click(function() {
-
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-          if (target.length) {
-              $('html,body').animate({
-                  scrollTop: target.offset().top
-              }, 1000); // 시간 설정
-              return false;
-          }
-      }
-  });
 
 
 });

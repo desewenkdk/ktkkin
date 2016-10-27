@@ -4,6 +4,8 @@ $(document).ready(function(){
   var wrap_ggg = 0,wrap_gg = 0,wrap_g = 0;
 
     $(".uccHome").on("click",function(){
+
+    
     location.href = "../index.html";
   });
 
